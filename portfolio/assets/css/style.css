@@ -1,5 +1,9 @@
 /* body style */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: rgb(42, 42, 43);
     color: rgb(161, 161, 161);
