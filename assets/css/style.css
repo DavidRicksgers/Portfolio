@@ -60,30 +60,43 @@ main {
 
 /* column orginization */
 
-.column1 {
-    float: left;
-    width: 15%;
-    padding: 20px;
-    margin: 20px;
+.section {
+    border: rgb(4, 66, 121);
+    display: flex;
+    flex-wrap: wrap;
+    border-width: 5px;
+    border-style: solid;
+    margin: 10px;
+    background-color: #1877f2;
+    border-radius: 10px;
+    min-width: 500px;
 }
 
-.column2 {
-    flex: 1;
-    float: right;
-    width: 72%;
-    text-align: center;
+.margin {
+    /* display: flex;
+    flex-wrap: wrap; */
+    margin: 10px;
 }
 
-.column3 {
-    flex: 2;
-    float: right;
-    width: 36%;
-    text-align: center;
+.row {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-/* Work card section */
+.thumbnail {
+    display: flex;
+    flex-wrap: wrap;
+    border: rgb(4, 66, 121);
+    border-width: 5px;
+    border-style: solid;
+    margin: 10px;
+    border-radius: 10px;
+    width: auto;
+    max-height: 200px;
+    position: relative;
+}
 
-#featureCard {
+#CampMeOutside {
     height: 400px;
     width: 72%;
     margin-bottom: 25px;
