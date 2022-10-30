@@ -9,6 +9,11 @@ body#login {
 	background-size: cover;
 	overflow-y: scroll;
 }
+@media screen and (min-width: 640px){
+	body.login {
+		
+	}
+}	
 nav.nav-scroll {
 	position: relative;
 	z-index: 2;
